@@ -1,0 +1,117 @@
+:root{
+    --fondo: #0fbd4063;
+    --fondo_caja: rgba(255, 183, 0, 0.254);
+    --bordeCaja: #a38121;
+    --fondoTitulo: #a38121;
+    --hoverText: #0b7324;
+}
+.caja-contenido, .caja-contenido{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.caja-contenido{
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    align-items: center;
+    background: var(--fondo);
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.caja{
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    background-color: var(--fondo_caja);
+    border: 1px solid var(--bordeCaja);
+}
+.cTitulo{
+    width: 100%;
+    height: 30px;
+    background: var(--fondoTitulo);
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 30px;
+}
+.caja, .cTitulo{
+    border-radius: 15px 15px 0px 0px;
+}
+.caja img{
+    width: 100%;
+    height: 182px;
+    object-fit:scale-down;
+}
+.leerMas, .leerMas2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.leerMas{
+    align-content:space-between;
+    align-items: center;
+}
+.leerMas2{
+    align-content:center;
+    align-items: center;
+    text-align: center;
+}
+.conLeer1{
+    width: 200px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.conLeer2{
+    width: 100px;
+    text-align: right;
+    margin-right: 0px;
+    line-height: 30px;
+    margin-left: -10px;
+}
+.conLeer2 a{
+    text-decoration: none;
+    background: var(--fondoTitulo);
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 13px;
+    text-align: right;
+}
+.conLeer2 a:hover{
+    background: var(--hoverText);
+    transform: scale(1.05);
+    transition: all .5s ease;
+}
+.caja:hover{
+    transform: scale(1.07);
+    transition: all 1.5ms ease;
+}
+.fondo_blanco{
+    background: #fff !important;
+}
+@media (max-width: 720px){
+    .contenido{
+        margin:auto;
+    }
+    .caja-contenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+    } 
+    .caja{
+        width: 90%;
+        height: 250px;
+        margin: auto;
+        margin-bottom: 25px;
+    }  
+}
+.contenedor{
+    width: 80%;
+}

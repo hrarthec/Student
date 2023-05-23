@@ -1,0 +1,23 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #e7e407;
+    --secundario: #c78523;
+    --gris: #757575;
+    --tancho: 1200px;
+    --tmedia:100%;
+}
+.contenedor{  
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.Sombra{
+    -webkit-box-shadow: 6px 8px 16px -5px rgba(63,72,171,0.68);
+    -moz-box-shadow: 6px 8px 16px -5px rgba(63,72,171,0.68);
+     box-shadow: 6px 8px 16px -5px rgba(63,72,171,0.68);
+     background-color: var(--blanco);
+     padding: 2rem;
+     border-radius: 1rem;
+}
+
+

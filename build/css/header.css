@@ -1,0 +1,94 @@
+.header{background-color:rgb(35, 104, 167);padding:1rem 0 3rem}
+@media (min-width:768px){
+    .header.inicio,
+    .header
+    .inicio 
+    .contenido-header{
+        min-height:70rem
+    }
+}
+.contenido-header{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between
+}
+.navegacion{
+    visibility:hidden;
+    opacity:0;
+    height:0;
+    }
+    @media (min-width:768px){
+        .navegacion{
+            display:flex;
+            align-items:center;
+            opacity:1;
+            visibility:visible;
+        }
+    }
+    .navegacion ul{
+        display:flex; 
+        position: relative; 
+                                                 
+    }
+    
+    .navegacion a{
+        color:#fff;
+        padding: 3px 5px;
+        text-decoration:none;
+        font-size:2.2rem;
+        display:block;
+        text-align:center;
+    }
+    .navegacion ul li li{                                                 
+        margin: 0;
+        flex-direction: column;
+        gap: 0;
+        position: absolute;
+        top: 38px;
+        background: #2368A7;
+        display: none;                                                         
+    }
+    
+    .navegacion ul li:hover li {                                                 
+        display: flex;                                                     
+    }
+    .navegacion{
+        visibility:hidden;
+        opacity:0;
+        height:0;
+        }
+        @media (min-width:768px){
+            .navegacion{
+                display:flex;
+                align-items:center;
+                opacity:1;
+                visibility:visible
+            }
+        }
+        .navegacion ul{
+            display:flex; 
+            position: relative; 
+                                                     
+        }
+        
+        .navegacion a{
+            color:#fff;
+            padding: 3px 5px;
+            text-decoration:none;
+            font-size:2.2rem;
+            display:block;
+            text-align:center;
+        }
+        .navegacion ul li li{                                                 
+            margin: 0;
+            flex-direction: column;
+            gap: 0;
+            position: absolute;
+            top: 38px;
+            background: #2368A7;
+            display: none;                                                         
+        }
+        
+        .navegacion ul li:hover li {                                                 
+            display: flex;                                                     
+        }

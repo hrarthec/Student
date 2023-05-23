@@ -1,0 +1,54 @@
+.con-video{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.formulario{
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.con-video1{    
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+.formulario1{
+    width: 700px;
+    height: 350px;
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .con-video{
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 10px;
+    }
+    .formulario{
+        width: 90%;
+        height: 350px;        
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }   
+    .formulario1{
+        width: 100%;
+    }
+}
